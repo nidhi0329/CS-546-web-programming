@@ -1,0 +1,16 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "this is my program",
+  "main": "lab1.js",
+  "dependencies": {
+    "node": "^13.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lab1.test.js"
+  },
+  "author": "Nidhi Chovatiya",
+  "license": "MIT"
+}
