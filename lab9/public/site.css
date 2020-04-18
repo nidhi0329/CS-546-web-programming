@@ -1,0 +1,76 @@
+.not-palindrome {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+.is-palindrome  {
+    color: #0000FF;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+body {
+    text-align: center;
+}
+
+.given_string{
+    font-size: large; 
+    font-weight: bold;
+}
+
+.statement {
+    font-weight: bold;
+    font-style: italic;
+    color : orchid
+}
+
+.box {
+    border: 2px solid black;
+    margin-top: 10px ;
+}
+
+.heading {
+    color: lightseagreen;
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+#attempts{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    border: 3px solid green;
+    margin-top:  30px;
+}
+
+.pstring{
+    font-weight: bold;
+    padding: 2px
+}
+
+#footer_value{
+    background-color: khaki;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20%;
+    font-size: large; 
+    font-weight: bold;
+    color : rebeccapurple
+}
+
+.f1{
+    text-align: left;
+    padding-right:  30%;
+}
+
+.f2{
+    text-align: center;
+}
+
+.f3{
+    text-align: right;
+    padding-left:  30%;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "chovatiya_nidhi_cs546_b",
+  "version": "1.0.0",
+  "description": "hey, this is my assignment 9",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Nidhi_Chovatiya_lab9",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "node": "^13.12.0",
+    "nodemon": "^2.0.3"
+  }
+}

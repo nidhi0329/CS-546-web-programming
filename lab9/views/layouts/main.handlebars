@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> {{title}}</title>
+    <link rel="stylesheet" type="text/css" href="site.css">
+    <script>
+        function checkPalindrome() {
+            var formdata = document.forms["myform"]["phrase"].value;
+            if (formdata == "") {
+                alert("Enter proper pharse.");
+                return false;
+            } else {
+                var re = /[^A-Za-z0-9]/g;
+                var lowRegStr = formdata.toLowerCase().replace(re, '');
+                var reverseStr = lowRegStr.split('').reverse().join('');
+                if (lowRegStr && reverseStr === lowRegStr) {
+                    document.getElementById('attempt_list').innerHTML += "<li class = is-palindrome >" + formdata + "</li>"
+                    document.getElementById('palindrome-string').value = ""
+                } else {
+                    document.getElementById('attempt_list').innerHTML += "<li class = not-palindrome>" + formdata + "</li>"
+                    document.getElementById('palindrome-string').value = ""
+                }
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header id= "header_value">
+        <h1> {{title}}</h1>
+    </header>
+
+    {{{body}}}
+
+    <footer id="footer_value">
+        <span class= "f1">Name: Nidhi Chovatiya</span>
+        <span class= "f2">Student ID: 10457344</span>
+        <span class= "f3">Major : Computer Science</span>
+    </footer>
+</body>
+
+</html>

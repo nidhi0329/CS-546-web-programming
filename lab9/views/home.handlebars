@@ -1,0 +1,28 @@
+<main>
+
+    <p class="statement">
+        This is best palindrome website where you find best result that your input is palindrome or not.
+        Palindrome means both the side string read same. For example, "madam". If you read left to right or right to
+        left, it read same.
+    </p>
+    <p class="statement">
+        So, our website give the best result to find the input string palindrome or not.
+    </p>
+    <form method="post" name="myform">
+        <label for="palindrome-string" class = "pstring"> Enter Palindrome String:</label>
+        <textarea rows="3" cols="40" name="phrase" class="box" id="palindrome-string"></textarea><br />
+        {{!-- <input type="button" value="Submit" onclick="checkPalindrome()"> --}}
+        <button type="submit" value="Submit" onclick="return checkPalindrome()">Check</button>
+    </form>
+
+    <br />
+
+    <div id="attempts">
+        <h4>
+           List of Attempt phrase
+        </h4>
+        <ol id="attempt_list">
+
+        </ol>
+</div>
+</main>
