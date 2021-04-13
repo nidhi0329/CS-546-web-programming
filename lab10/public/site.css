@@ -1,0 +1,61 @@
+
+  .error {
+    color: red;
+    font-weight: 100;
+    text-align: center;
+  }
+
+
+  input[type=submit]:hover {
+    background-color: 	#FF4500;
+  }
+
+  input[type=submit] {
+    background-color: 	#FF6347;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    border: 2px solid wheat;
+    cursor: pointer;
+  }
+
+  #username {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #FF6347;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #password{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #FF6347;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .page {
+    margin: auto;
+    text-align: left;
+    width: 65%;
+    border : 3px solid salmon;
+    border-radius: 5px;
+    padding: 20px
+    
+  }
+
+  .page1 {
+    margin: auto;
+    text-align: center;
+    width: 65%;
+    border : 3px solid salmon;
+    border-radius: 5px;
+    padding: 20px
+  }
+
+  

@@ -1,0 +1,19 @@
+{
+  "name": "lab10",
+  "version": "1.0.0",
+  "description": "This is my last assignment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nidhi Chovatiya",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "express-session": "^1.17.1"
+  }
+}
